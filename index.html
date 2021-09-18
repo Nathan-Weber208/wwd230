@@ -4,5 +4,12 @@
     </head>
     <body>
         Hello classmates!
+        <br/>
+        The date is <span id='currentdate'></span>
+        <script>
+            
+            const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
+            document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
+        </script>
     </body>
 </html>
