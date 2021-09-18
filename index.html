@@ -1,15 +1,28 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Test</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        Hello classmates!
-        <br/>
-        The date is <span id='currentdate'></span>
-        <script>
-            
-            const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numeric'};
-            document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
-        </script>
+        <h1 class="name">
+            Nathan Weber
+        </h1>
+        <img class="profile-pic" width="100%" src="profile.jpg"/>
+        <h2 class="home-headline">
+            CIT 230: Assighnment Portal
+        </h2>
+        <nav>
+            <ul>
+              <li class="lesson 02"><a href="?">Assignment Link</a></li>
+              <br/>
+              <li class="lesson 03"><a href="?">Assignment Link</a></li>
+              <br/>
+              <li class="lesson 04.1"><a href="?">link</a></li>
+              <li class="lesson 04.2"><a href="?">link</a></li>
+            </ul>
+          </nav>
+        
+        
     </body>
 </html>
