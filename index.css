@@ -90,4 +90,6 @@ footer{
     border-bottom: 5px double;
     margin-right: 100px;
     border-radius: 15px;
+    text-align: center; 
+    vertical-align: middle;
   }
