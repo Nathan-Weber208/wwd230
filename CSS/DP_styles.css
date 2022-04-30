@@ -55,5 +55,5 @@ img {
     border: 1px solid darkblue;
     border-radius: 10px;
     margin: auto auto 0;
-
+    width: 100%; 
 }
