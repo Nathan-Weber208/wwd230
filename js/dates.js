@@ -4,8 +4,8 @@ let daynames = [
     "Tuesday",
     "Wednesday",
     "Thursday",
-    "friday",
-    "saturday"
+    "Friday",
+    "Saturday"
 ];
 let months = [
     "January",
@@ -26,7 +26,8 @@ console.log(d)
 let dayname = daynames[d.getDay()];
 let monthname = months[d.getMonth()];
 let year = d.getFullYear();
-let fulldate = dayname + ", " + monthname + " " + d.getDate() + ", " + d.getFullYear();
+let fulldate = dayname + ", " + monthname + " " + d.getDate() + ", " + year;
 
-console.log("hello")
+
 document.getElementById("currentdate").innerHTML = fulldate;
+document.getElementById("currentyear").innerHTML = year;
