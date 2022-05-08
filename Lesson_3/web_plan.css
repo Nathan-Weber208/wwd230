@@ -1,0 +1,162 @@
+.header-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #46392a;
+
+}
+
+.header-grid img {
+    grid-column: 1 / 1;
+    grid-row: 1/1;
+    border-radius: 5px;
+    outline-color: #78461a;
+}
+.header-grid nav{
+    grid-column: 2 / 5;
+    grid-row: 2/2;
+    border-radius: 5px;
+    
+}
+
+.header-grid h1 {
+    grid-column: 2 / 5;
+    grid-row: 1/1;
+    margin-top: auto;
+    
+    color: #e7ca8c;
+    
+	
+
+
+}
+
+
+
+body {
+    background-color: #e7ca8c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Koulen', cursive;
+    color: #78461a;
+}
+
+p {
+    color: #78461a;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #46392a;
+}
+
+.footer-grid p {
+    margin-top: auto;
+    text-align: left;
+    margin-left: 10px;
+    color: #e7ca8c;
+    grid-column: 1 / 4;
+    grid-row: 1/1;
+}
+
+/* Target audience specific */
+.persona_tile {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+}
+
+.persona_tile h4 {
+    grid-column: 1 / 5;
+    grid-row: 1/1;
+    margin-bottom: auto;
+    text-align: left;
+
+}
+
+.persona_tile img {
+    max-width: 200px;
+    grid-column: 1;
+    grid-row: 2;
+
+}
+
+.persona_tile p {
+    grid-column: 2 / 5;
+    grid-row: 2;
+
+    text-align: left;
+}
+
+/* color scheme specific */
+th {
+    color: #78461a;
+}
+
+.primary {
+    color: #e7ca8c;
+    background-color: #78461a;
+}
+
+.secondary {
+    color: #78461a;
+}
+
+.accent1 {
+    color: #46392a;
+}
+
+.accent2 {
+    color: #234F1E;
+}
+
+
+/* copy from example */
+
+nav{
+    max-width: 960px;
+	margin: 0 auto;
+    background-color:#234F1E;
+	text-align: center;
+	
+    display: flex;
+	flex-direction: column;
+}
+nav div {
+	flex: 1 1 auto;
+}
+nav a {
+	display: block;
+	color:#e7ca8c;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+nav a:hover {
+	background-color:#78461a;
+	color: yellow;
+}
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+}
+@media (min-width: 48em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+}
