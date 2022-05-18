@@ -167,13 +167,17 @@ nav {
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
-.navigation a.ham::before {
-	content: "Open Menu" url(denied.png);
+.navigation .ham{
+    text-align: right;
+}
+
+/* .navigation a.ham::before {
+    
 }
 
 .responsive a.ham::before {
-	content: "Close Menu" url(hamburger.png);
-}
+
+} */
 
 .navigation a:hover {
 	color: yellow;
