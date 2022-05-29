@@ -20,7 +20,7 @@
     <header>
         <div class="header-grid">
             <h1>Phandalin Chamber of Commerce </h1>
-            <h3><span id="currentdate"></span></h3>
+            <h3> Date: <span id="currentdate"></span></h3>
             <img src="images/Phandalin_logo_high.webp" alt="Phandalin logo">
 
             <nav>
@@ -46,7 +46,7 @@
             <div class="weather">
                 <h2>Looks like rain!</h2>
                 <p>Lady Garaele predicts this afternoon to be a wet one. Prepare for the downpour.</p>
-                <img src="images/rain.jpg" alt="rain">
+                <!-- <img src="images/rain.jpg" alt="rain"> -->
             </div>
             <div class="join">
                 <h2>Join the Redbrands</h2>
@@ -58,7 +58,11 @@
                 <p>Come one come all! Phandalin has all you could want as a budding adventurer. Be it food, drink, gear,
                     or just an opportunity to show your strength, we are here to serve. Come to the town hall for your
                     very first formal quest.</p>
-                <img src="images/map_phandalin.jpg" alt="map of Phandalin">
+                <picture>
+                    <source srcset="images/temp_medium.jpg" media="(min-width: 500px) and (max-width: 799px)">
+                    <source srcset="images/temp_large.jpg" media="(min-width: 800px) ">
+                    <img src="images/temp_small.jpg" alt="map of Phandalin">
+                </picture>
             </div>
             <div class="news">
                 <h2>Struck with Luck!</h2>

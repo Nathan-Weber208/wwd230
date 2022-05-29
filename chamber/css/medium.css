@@ -5,7 +5,7 @@
     }
 
     .header-grid img {
-        grid-column: 0 / 1;
+        grid-column: 1 / 1;
         grid-row: 1/3;
         max-width: 300px;
     }
@@ -39,8 +39,9 @@
     .hero {
         grid-column: 1/3;
         grid-row: 1/1;
-
+        
     }
+    
 
     .news {
         grid-column: 1/3;
