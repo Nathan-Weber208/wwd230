@@ -82,16 +82,25 @@ body {
 .event {
     grid-column: 1/3;   
     grid-row: 2;
-    
-     
 }
 
 
 .weather {
     grid-column: 1/3;
     grid-row: 3;
-    background-image: url("chamber/images/rain.jpg");
+    display: grid;
+    grid-template-columns: 1fr;
 }
+/* .weather h2{
+    grid-row: 2/2;
+}
+.weather p{
+    grid-row: 1/1;
+}
+.weather img{
+    grid-row: 1/1;
+    opacity: 0.75;
+} */
 
 .news {
     grid-column: 1/3;
