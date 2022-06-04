@@ -1,8 +1,15 @@
 article img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-  article img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
+  filter: blur(0.2em);
+}
+
+article img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #e7ca8c;
+  row-gap: 100px;
+}
