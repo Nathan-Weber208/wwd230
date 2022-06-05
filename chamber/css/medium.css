@@ -1,5 +1,5 @@
 @media (min-width: 45em) {
-    
+
     .header-grid {
         grid-template-columns: auto auto auto;
     }
@@ -18,6 +18,7 @@
         margin-bottom: auto;
 
     }
+
     .header-grid h3 {
         grid-column: 2 / 4;
         grid-row: 2/2;
@@ -25,7 +26,7 @@
         margin-bottom: auto;
 
     }
-    
+
 
     /* main grid */
     .main-grid {
@@ -39,9 +40,9 @@
     .hero {
         grid-column: 1/3;
         grid-row: 1/1;
-        
+
     }
-    
+
 
     .news {
         grid-column: 1/3;
@@ -83,26 +84,68 @@
         display: none;
     }
 
+    /* discover grid */
+    
 
+    .left-swing,.right-swing{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .left-swing img{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .left-swing p, .left-swing h2{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .left-swing p{
+        margin-top: 70px;
+    }
+    
+    
+    .right-swing img{
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .right-swing p, .right-swing h2{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .right-swing p{
+        margin-top: 70px;
+    }
+
+    .pictureswing-grid div picture,
+    h2,
+    p,
+    picture img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 
     /* Responsive navigation */
     nav {
         flex-direction: row;
     }
+
     .navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block;
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .navigation a {
+        text-align: center;
         font-size: 1.1rem;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
 
 
 }
