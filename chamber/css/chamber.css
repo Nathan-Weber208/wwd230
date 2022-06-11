@@ -225,3 +225,114 @@ nav {
 }
 
 
+
+
+/* Join us page */
+.join_us-grid{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.big_form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: right;
+    width: 400px;
+    background-color: #ecddbc;
+    border-radius: 15px;
+    
+}
+.big_form h1{
+    margin-right: 130px;
+}
+.big_form h3{
+    margin-right: 100px;
+}
+.submit{
+    margin-right: 75px;
+}
+.big_form div input{
+    background-color: #e9e9e9;
+    margin-right: 100px;
+    border-radius: 5px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.big_form div textarea{
+    
+    
+    border-radius: 5px; 
+    background-color: #e9e9e9;
+}
+/* membership selector */
+.membership{
+    position:relative;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+
+.membership fieldset{
+    position:relative;
+    width: 80%;
+    background-color: #e7ca8c;
+    height:80px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border-radius:100px;
+  
+}
+.membership_choice{
+    position:relative;
+    flex-basis:calc(70% / 3);
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.input{
+    appearance:none;
+    display:none;
+}
+.input_label{
+    position:relative;
+    height:80%;
+    width:100%;
+    text-align:center;
+    border-radius:100px;
+    line-height:400%;
+    font-weight:900;
+    transition-duration:.5s;
+    transform:none;
+}
+.input:checked + .input_label{
+    background-color:#234F1E;
+    color:#e9e9e9;
+    transform:translateY(-2px);
+}
+
+/* join page membership benifits */
+.membership_benefits{
+    display: flex;
+    flex-direction: row;
+    
+}
+.membership_benefits div{
+    display: flex;
+    flex-direction: column;
+
+}
+.membership_benefits div ul li{
+    margin-left: -20px;
+
+}

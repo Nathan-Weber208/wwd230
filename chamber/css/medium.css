@@ -150,5 +150,14 @@
         display: none;
     }
 
+    /* Join page */
+    .membership_benefits{
+        
+        flex-direction: column;
+    }
+    .join_us-grid{
+        flex-direction: row;
+    }
+
 
 }
