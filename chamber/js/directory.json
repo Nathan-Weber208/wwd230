@@ -1,0 +1,76 @@
+{
+  "businesses": [
+    {
+      "name": "Eldermath Orchard",
+      "address":"12th main",
+      "number":"(208)458-3904",
+      "website":"edermathorchards.com",
+      "imageurl": "images/eldermath_orchards.webp",
+      "membership": "Gold"
+    },
+    {
+      "name": "Miner's Exchange",
+      "address":"17th apple st.",
+      "number":"(208)678-4453",
+      "website":"mineallday.com",
+      "imageurl": "images/mine.jpg",
+      "membership": "Gold"
+    },
+    {
+      "name": "Barthins Provisions",
+      "address":"17th main",
+      "number":"(208)345_9729",
+      "website":"Barthinswares.com",
+      "imageurl": "images/provisions.jpg",
+      "membership": "Silver"
+    },
+    {
+      "name": "Redbrand Ruffians",
+      "address":"23rd Castleview",
+      "number":"(208)450-3856",
+      "website":"rideordie.com",
+      "imageurl": "images/Redbrands.jpg",
+      "membership": "Silver"
+    },
+    {
+      "name": "Sister Garedelle",
+      "address":"Shrine in the center of town",
+      "number":"(208)295-4957",
+      "website":"fortunescoin.com",
+      "imageurl": "images/shrine_of_luck.webp",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Stonehill Manor",
+      "address":"23rd main",
+      "number":"(208)239-5065",
+      "website":"stoneandale.com",
+      "imageurl": "images/stonehill_inn.jpg",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Tresdor Manor",
+      "address":"1st Castleview",
+      "number":"(208)385-3956",
+      "website":"manortours.com",
+      "imageurl": "images/tresdor_manor.webp",
+      "membership": "Nonprofit"
+    },
+    {
+      "name": "Eldermath Orchard",
+      "address":"12th main",
+      "number":"(208)458-3904",
+      "website":"Edermathorchards.com",
+      "imageurl": "images/eldermath_orchards.webp",
+      "membership": "Nonprofit"
+    },
+    {
+      "name": "Sister Gareldeles Healing",
+      "address":"16th main",
+      "number":"(208)459-4059",
+      "website":"Healingfortune.com",
+      "imageurl": "images/Vial_of_holy_Water.jpg",
+      "membership": "Nonprofit"
+    }
+  ]
+}

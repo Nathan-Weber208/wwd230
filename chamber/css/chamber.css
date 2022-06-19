@@ -12,6 +12,7 @@ p {
 }
 
 
+
 body {
     background-color: #e7ca8c;
 }
@@ -335,4 +336,23 @@ nav {
 .membership_benefits div ul li{
     margin-left: -20px;
 
+}
+
+/* json imported cards */
+
+.cards {
+    display: grid;
+    row-gap: 10px; 
+    column-gap: 10px;   
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+.cards img{
+    max-width: 300px;
+}
+
+.cards section{
+    background-color: #ecddbc;
+    border-radius: 10px;
+    text-align: center;
 }
