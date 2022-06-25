@@ -1,3 +1,6 @@
+let dnow = Date.now()
+window.localStorage.setItem("lastVisited",dnow)
+
 let lastVisited = window.localStorage.getItem("lastVisited");
 let Display = document.querySelector("#lastVisited");
 if (lastVisited) {
