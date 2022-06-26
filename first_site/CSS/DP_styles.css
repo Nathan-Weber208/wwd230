@@ -77,3 +77,7 @@ h3{
     padding-top: 20px;
     padding-left: 20px;
 }
+
+.wireframeimg img{
+    max-width: 300px;
+}
