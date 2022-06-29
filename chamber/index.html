@@ -44,9 +44,22 @@
                 <img src="images/orc_trouble.jpg" alt="orc trouble">
             </div>
             <div class="weather">
-                <h2>Looks like rain!</h2>
-                <p>Windchill will make it feel like <span id="Windchill"></span> degrees</p>
-                <img src="images/rain.jpg" alt="rain">
+                <h2>Weather</h2>
+                <p class="temp">Temp 
+                    <br>
+                    <span id="current-temp"></span> &deg;F</p>
+
+                <img src="" alt="" id="weathericon" />
+                    
+                
+                <figcaption></figcaption>
+                <p class="speed">Wind Speed:
+                <span id="Windspeed"></span>
+                </p>
+                <p class="chill">Windchill:
+                <span id="Windchill"></span>
+                </p>
+        
             </div>
             <div class="join">
                 <h2>Join the Redbrands</h2>
@@ -103,8 +116,8 @@
 
         </div>
     </footer>
+    <script src="js/weather_windchill.js"></script>
     <script src="js/dates.js"></script>
-    <script src="js/windchill.js"></script>
     <script src="js/responsiveham.js"></script>
 </body>
 
