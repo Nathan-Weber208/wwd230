@@ -22,7 +22,7 @@ let months = [
     "December"
 ];
 let d = new Date(document.lastModified);
-console.log(d)
+
 let dayname = daynames[d.getDay()];
 let monthname = months[d.getMonth()];
 let year = d.getFullYear();

@@ -6,7 +6,8 @@
       "number":"(208)458-3904",
       "website":"edermathorchards.com",
       "imageurl": "images/eldermath_orchards.webp",
-      "membership": "Gold"
+      "membership": "Gold",
+      "spotlight": "1"
     },
     {
       "name": "Miner's Exchange",
@@ -14,7 +15,8 @@
       "number":"(208)678-4453",
       "website":"mineallday.com",
       "imageurl": "images/mine.jpg",
-      "membership": "Gold"
+      "membership": "Gold",
+      "spotlight": "2"
     },
     {
       "name": "Barthins Provisions",
@@ -22,7 +24,8 @@
       "number":"(208)345_9729",
       "website":"Barthinswares.com",
       "imageurl": "images/provisions.jpg",
-      "membership": "Silver"
+      "membership": "Gold",
+      "spotlight": "3"
     },
     {
       "name": "Redbrand Ruffians",
@@ -30,7 +33,8 @@
       "number":"(208)450-3856",
       "website":"rideordie.com",
       "imageurl": "images/Redbrands.jpg",
-      "membership": "Silver"
+      "membership": "Silver",
+      "spotlight": "no"
     },
     {
       "name": "Sister Garedelle",
@@ -38,7 +42,8 @@
       "number":"(208)295-4957",
       "website":"fortunescoin.com",
       "imageurl": "images/shrine_of_luck.webp",
-      "membership": "Bronze"
+      "membership": "Bronze",
+      "spotlight": "no"
     },
     {
       "name": "Stonehill Manor",
@@ -46,7 +51,8 @@
       "number":"(208)239-5065",
       "website":"stoneandale.com",
       "imageurl": "images/stonehill_inn.jpg",
-      "membership": "Bronze"
+      "membership": "Bronze",
+      "spotlight": "no"
     },
     {
       "name": "Tresdor Manor",
@@ -54,7 +60,8 @@
       "number":"(208)385-3956",
       "website":"manortours.com",
       "imageurl": "images/tresdor_manor.webp",
-      "membership": "Nonprofit"
+      "membership": "Nonprofit",
+      "spotlight": "no"
     },
     {
       "name": "Eldermath Orchard",
@@ -62,7 +69,8 @@
       "number":"(208)458-3904",
       "website":"Edermathorchards.com",
       "imageurl": "images/eldermath_orchards.webp",
-      "membership": "Nonprofit"
+      "membership": "Nonprofit",
+      "spotlight": "no"
     },
     {
       "name": "Sister Gareldeles Healing",
@@ -70,7 +78,8 @@
       "number":"(208)459-4059",
       "website":"Healingfortune.com",
       "imageurl": "images/Vial_of_Holy_Water.jpg",
-      "membership": "Nonprofit"
+      "membership": "Nonprofit",
+      "spotlight": "no"
     }
   ]
 }

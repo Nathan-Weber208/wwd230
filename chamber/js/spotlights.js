@@ -23,15 +23,6 @@ function displayBusiness(business) {
     h2.textContent = business.name;
     card.appendChild(h2);
 
-    //Business Address
-    let address = document.createElement('p');
-    address.textContent = business.address;
-    card.appendChild(address);
-
-    // Business Phone Number
-    let number = document.createElement('p');
-    number.textContent = business.number;
-    card.appendChild(number);
 
     // Business website
     let website = document.createElement('p');
@@ -44,11 +35,14 @@ function displayBusiness(business) {
     image.setAttribute('alt', `${business.name} Logo`);
     card.appendChild(image);
 
-    // // Business membership level
-    let membership = document.createElement('p');
-    membership.textContent = business.membership;
-    card.appendChild(membership);
-
-    // Append card to the DOM (the prophet list).
-    document.querySelector('div.cards').appendChild(card);
+    // append the first three busnesses to div class spotlight_1, spotlight_2, spotlight_3
+    if (business.spotlight === '1') {
+        document.querySelector('div.spotlight_1').appendChild(card);
+    }
+    if (business.spotlight === '2') {
+        document.querySelector('div.spotlight_2').appendChild(card);
+    }
+    if (business.spotlight === '3') {
+        document.querySelector('div.spotlight_3').appendChild(card);
+    }
 }

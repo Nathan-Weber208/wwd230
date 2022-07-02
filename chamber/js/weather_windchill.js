@@ -9,7 +9,7 @@ const kelvinToFahrenheit = (kelvin) => {
 const getWeather = async () => {
     const response = await fetch(url);
     jsObject = await response.json();
-    console.log(jsObject);
+  
 
     let temp = kelvinToFahrenheit(jsObject.main.temp);
     document.querySelector('#current-temp').textContent = temp;
