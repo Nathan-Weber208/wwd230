@@ -15,6 +15,7 @@ p {
 
 body {
     background-color: #e7ca8c;
+    margin: 0!important;
 }
 
 .header-grid {
@@ -40,6 +41,7 @@ body {
     margin-top: auto;
     color: #e7ca8c;
     text-align: center;
+    margin: 0 5px 0 5px;
 }
 .header-grid h3 {
     grid-row: 3/3;
@@ -236,6 +238,7 @@ nav {
 .navigation {
 	list-style: none;
 	padding: 0;
+    margin: 0;
 }
 .navigation li:first-child {
 	display: block;
